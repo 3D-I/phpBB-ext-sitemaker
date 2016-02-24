@@ -94,18 +94,6 @@
 			{% endverbatim %}
 		</script>
 
-		<div id="dialog-menu" class="dialog" title="{L_ADD_MENU}" style="display: none;">
-			<form id="add-menu-form">
-				<p class="small">{L_PT_REQUIRED_FIELDS}</p><br />
-				<fieldset>
-					<dl>
-						<dt><label for="menu_name">{L_MENU_NAME}*</label></dt>
-						<dd><input id="menu_name" class="small" name="menu_name" type="text" maxlength="55" value="" /></dd>
-					</dl>
-				</fieldset>
-			</form>
-		</div>
-
 		<div id="dialog-confirm-menu" class="dialog" title="{L_DELETE_MENU}" style="display: none;">
 			<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>{L_DELETE_MENU_CONFIRM}</p>
 		</div>
@@ -117,7 +105,7 @@
 		<div id="dialog-edit-menu-item" class="dialog" title="{L_EDIT_MENU_ITEM}" style="display: none;">
 			<form id="edit-menu-item-form" name="edit_menu_item_form" style="width: 350px;">
 				<fieldset>
-					<p class="small">{L_PT_REQUIRED_FIELDS}</p><br />
+					<p class="small">{L_REQUIRED_FIELDS}</p><br />
 					<dl>
 						<dt><label>{L_ITEM_NAME}*</label><br /><span class="small">{L_ITEM_NAME_EXPLAIN}</span></dt>
 						<dd><input id="item_title" class="required" type="text" name="item_title" value="" /></dd>
